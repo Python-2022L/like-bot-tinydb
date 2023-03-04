@@ -25,8 +25,8 @@ def photo(update: Update, context: CallbackContext):
     btn2 = InlineKeyboardButton(text=f'\U0001F44E {dislike}', callback_data="dislike")
 
     keyboard = InlineKeyboardMarkup([[btn1, btn2]])
-    bot.sendPhoto(chat_id=chat_id, photo=photo, reply_markup=keyboard)
-
+    bot.sendPhoto(chat_id = chat_id, photo=photo, reply_markup=keyboard)
+# -1001683268337
 def count_like_dislike(update, context):
     query = update.callback_query
     data = query.data
