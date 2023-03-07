@@ -1,9 +1,23 @@
 {
-    "_default": {
-        "5575549228": {
-            "like": 1,
-            "dislike": 0
+    "users": {
+        "1": {
+            "first_name": "Javohir",
+            "last_name": "Jalilov",
+            "chat_id":12345654
+        }
+    },
+    "img1":{
+        "2343534":{
+            "like": true,
+            "dislike": false
         },
+        "453534534":{
+            "like":false,
+            "dislike":false
+            
+        }
+    },
+    "img2":{
         "1046157991": {
             "like": 0,
             "dislike": 0
@@ -16,5 +30,6 @@
             "like": 0,
             "dislike": 0
         }
+
     }
 }
